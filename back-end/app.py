@@ -1,5 +1,6 @@
 import os
-from flask import Flask
+import requests
+from flask import Flask, request
 from flask_sqlalchemy import SQLAlchemy
 
 print(os.environ.get('APP_SETTINGS'))
