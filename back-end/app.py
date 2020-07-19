@@ -9,7 +9,7 @@ app.config.from_object(os.environ.get('APP_SETTINGS'))
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
-
+# import bug still needs fix
 from models import User, Game, Phrase
 
 @app.route('/sign_up', methods=['POST'])
