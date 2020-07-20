@@ -1,0 +1,75 @@
+.testing {
+    border: 1px solid red;
+}
+
+.button {
+    border: 1px solid black;
+    width: 25px;
+}
+
+.fit{
+    display: flex;
+}
+.body_configuration {
+    display: flex;
+}
+.leg_1 {
+    border: 2px solid black;
+    margin-left: 100%;
+    /* margin-top: 10%; */
+    width: 40px;
+    transform: rotate(45deg);
+    transform-origin: 0% 0%;
+}
+.leg_2 {
+    border: 2px solid black;
+    margin-top: 18%;
+    width: 40px;
+    margin-left: 76.5%;
+    transform: rotate(-45deg);
+    transform-origin: 0% 0%;
+}
+.arm_1 {
+    border: 2px solid black;
+    /* margin-left: 95%; */
+    margin-top: 12%;
+    transform: rotate(-45deg);
+    transform-origin: 0% 0%;
+}
+.arm_2 {
+    border: 2px solid black;
+    margin-left: 96%;
+    margin-top: 10%;
+    transform: rotate(45deg);
+    transform-origin: 0% 0%;
+}
+.body {
+    height: 60px;
+    border-left: 4px solid black;
+}
+.head {
+    border: 2px solid black;
+    height: 15%;
+    width: 33%;
+    margin-left: 80%;
+    border-radius: 50%;
+}
+.rope {
+    height: 60px;
+    margin-left: 136px;
+    border-left: 4px solid black;
+}
+.top {
+    width: 9.5%;
+    margin-left: 9.5%;
+    border: 2px solid black;
+}
+.pole {
+    height: 300px;
+    width: 9%;
+    border-right: 4px solid black;
+}
+.base {
+    width: 20%;
+    border: 2px solid black;
+}
