@@ -7,6 +7,12 @@
     width: 25px;
 }
 
+.button_clicked {
+    border: 1px solid black;
+    width: 25px;
+    background-color: gray;
+}
+
 .fit{
     display: flex;
 }
@@ -21,6 +27,15 @@
     transform: rotate(45deg);
     transform-origin: 0% 0%;
 }
+.leg_1_hidden {
+    border: 2px solid black;
+    margin-left: 100%;
+    /* margin-top: 10%; */
+    width: 40px;
+    transform: rotate(45deg);
+    transform-origin: 0% 0%;
+    visibility: hidden;
+}
 .leg_2 {
     border: 2px solid black;
     margin-top: 18%;
@@ -29,12 +44,29 @@
     transform: rotate(-45deg);
     transform-origin: 0% 0%;
 }
+.leg_2_hidden {
+    border: 2px solid black;
+    margin-top: 18%;
+    width: 40px;
+    margin-left: 76.5%;
+    transform: rotate(-45deg);
+    transform-origin: 0% 0%;
+    visibility: hidden;
+}
 .arm_1 {
     border: 2px solid black;
     /* margin-left: 95%; */
     margin-top: 12%;
     transform: rotate(-45deg);
     transform-origin: 0% 0%;
+}
+.arm_1_hidden {
+    border: 2px solid black;
+    /* margin-left: 95%; */
+    margin-top: 12%;
+    transform: rotate(-45deg);
+    transform-origin: 0% 0%;
+    visibility: hidden;
 }
 .arm_2 {
     border: 2px solid black;
@@ -43,9 +75,22 @@
     transform: rotate(45deg);
     transform-origin: 0% 0%;
 }
+.arm_2_hidden {
+    border: 2px solid black;
+    margin-left: 96%;
+    margin-top: 10%;
+    transform: rotate(45deg);
+    transform-origin: 0% 0%;
+    visibility: hidden;
+}
 .body {
     height: 60px;
     border-left: 4px solid black;
+}
+.body_hidden {
+    height: 60px;
+    border-left: 4px solid black;
+    visibility: hidden;
 }
 .head {
     border: 2px solid black;
@@ -54,22 +99,71 @@
     margin-left: 80%;
     border-radius: 50%;
 }
+.head_hidden {
+    border: 2px solid black;
+    height: 15%;
+    width: 33%;
+    margin-left: 80%;
+    border-radius: 50%;
+    visibility: hidden;
+}
 .rope {
     height: 60px;
     margin-left: 136px;
     border-left: 4px solid black;
+}
+.rope_hidden {
+    height: 60px;
+    margin-left: 136px;
+    border-left: 4px solid black;
+    visibility: hidden;
 }
 .top {
     width: 9.5%;
     margin-left: 9.5%;
     border: 2px solid black;
 }
+.top_hidden {
+    width: 9.5%;
+    margin-left: 9.5%;
+    border: 2px solid black;
+    visibility: hidden;
+}
 .pole {
     height: 300px;
     width: 9%;
     border-right: 4px solid black;
 }
+.pole_hidden {
+    height: 300px;
+    width: 9%;
+    border-right: 4px solid black;
+    visibility: hidden;
+}
 .base {
     width: 20%;
     border: 2px solid black;
 }
+
+.base_hidden {
+    width: 20%;
+    border: 2px solid black;
+    visibility: hidden;
+}
+
+.spaces {
+    display: flex;
+}
+
+.space {
+    margin: 4px;
+    border-bottom: 1px solid black;
+}
+
+.show {
+    margin: 4px;
+    width: 10px;
+    color: white;
+    border-bottom: 1px solid black;
+}
+
